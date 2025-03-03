@@ -31,6 +31,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+  table_calendar: ^3.0.9  # 최신 버전 확인 필요
+  intl: ^0.19.0  # 날짜 및 다국어 지원 (이것만 사용)
+  geolocator: ^10.1.0  # (선택) 위치 기반 언어 감지 (필요하면 유지)
+  flutter_localizations: # 다국어 지원
+    sdk: flutter
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
